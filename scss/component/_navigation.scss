@@ -3,8 +3,11 @@
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    padding: $primary-size;
     
-   &-link {
+    
+    &-link {
       text-align: center;
       border-radius: 5px;
       padding: $primary-size 0;
@@ -19,10 +22,6 @@
       }
     }
 }
-  
-  
-  
-  
 
   @include media-query($pad-desktop-screen) {
 
