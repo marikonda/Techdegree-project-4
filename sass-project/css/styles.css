@@ -1,0 +1,19 @@
+/* Error: expected ";".
+ *   ,
+ * 5 |     border: none;
+ *   |           ^
+ *   '
+ *   scss/component/_button.scss 5:11  @import
+ *   scss/component/_index.scss 6:9    @import
+ *   scss/styles.scss 4:9              root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a   \2577 \a 5 \2502      border: none;\a   \2502            ^\a   \2575 \a   scss/component/_button.scss 5:11  @import\a   scss/component/_index.scss 6:9    @import\a   scss/styles.scss 4:9              root stylesheet';
+}
