@@ -1,0 +1,24 @@
+.headline-primary {
+    color: $viking;
+    margin-left: $primary-size;
+  }
+  
+.headline-secondary {
+    font-weight: 300;
+    color: $grey;
+  }
+  
+.link {
+    color: $malibu;
+    font-weight: 700;
+  }
+  
+.blockquote {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: $secondary-size;
+    padding-left: $secondary-size;
+    border-left: 8px solid $viking;
+    border-radius: 5px;
+  }
